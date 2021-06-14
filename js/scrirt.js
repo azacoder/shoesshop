@@ -4,7 +4,7 @@ function deldiv1 () {
     document.getElementById("box1").remove();
 }
 
-function deldiv2 () { 
+ function deldiv2 () { 
     document.getElementById("hr2").remove(); 
     document.getElementById("box2").remove();
 }
@@ -89,4 +89,76 @@ btnminus3.onclick = function () {
         prise3.innerHTML = `${priceValue3 * number3} $` ;
     }
 };
+
+////// heart 
+
+let btntrue = true; 
+let like = document.getElementById("heartimg1"); 
+
+
+
+function btnchange () {
+    if (btntrue ==true){
+     btntrue = false; 
+     like.src="heartR.png";
+
+     
+
+    }
+ else if (btntrue == false )  {
+        btntrue = true;
+        like.src="heartW.png";
+
+} 
+
+}
+
+///////////////////////////
+
+let btntrue2 = true; 
+let like2 = document.getElementById("heartimg2"); 
+
+
+
+function btnchange2 () {
+    if (btntrue2 ==true){
+     btntrue2 = false; 
+     like2.src="heartR.png";
+
+     
+
+    }
+ else if (btntrue2 == false )  {
+        btntrue2 = true;
+        like2.src="heartW.png";
+
+} 
+
+}
+
+/////////////////////////////////////
+
+let btntrue3 = true; 
+let like3 = document.getElementById("heartimg3"); 
+
+
+
+function btnchange3 () {
+    if (btntrue3 ==true){
+     btntrue3 = false; 
+     like3.src="heartR.png";
+
+     
+
+    }
+ else if (btntrue3 == false )  {
+        btntrue3 = true;
+        like3.src="heartW.png";
+
+} 
+
+}
+
+
+
 
